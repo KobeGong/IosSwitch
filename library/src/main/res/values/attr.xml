@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideSwitch">
+        <attr name="onColor" format="color" />
+        <attr name="offColor" format="color" />
+        <attr name="onThumbColor" format="color" />
+        <attr name="offThumbColor" format="color" />
+        <attr name="checked" format="boolean" />
+        <attr name="slide" format="boolean" />
+        <attr name="shape">
+            <enum name="rect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
